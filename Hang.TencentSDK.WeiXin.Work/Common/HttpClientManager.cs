@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Hang.TencentSDK.WeiXin.Work.Common
 {
-    public static class HttpClientManager
+    internal static class HttpClientManager
     {
         private static readonly HttpClient httpClient = new HttpClient();
 
