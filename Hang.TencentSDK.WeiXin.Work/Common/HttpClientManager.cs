@@ -34,12 +34,7 @@ namespace Hang.TencentSDK.WeiXin.Work.Common
 
         public static async Task<string> PostAsync(string url, string content)
         {
-            return await PostAsync(url, new StringContent(content));
-        }
-
-        public static async Task<string> PostAsync(string url, StringContent content)
-        {
-            using (var response = await httpClient.PostAsync(url, content))
+            using (var response = await httpClient.PostAsync(url, new StringContent(content)))
             {
                 var httpRet = await response.Content.ReadAsStringAsync();
                 return httpRet;
@@ -55,17 +50,11 @@ namespace Hang.TencentSDK.WeiXin.Work.Common
         /// <returns></returns>
         public static async Task<T> PostAsync<T>(string url, string content) where T : new()
         {
-            return await PostAsync<T>(url, new StringContent(content));
-        }
-
-        public static async Task<T> PostAsync<T>(string url, StringContent content) where T : new()
-        {
-            using (var response = await httpClient.PostAsync(url, content))
+            using (var response = await httpClient.PostAsync(url, new StringContent(content)))
             {
                 var httpRet = await response.Content.ReadAsStringAsync();
                 return JsonConvert.DeserializeObject<T>(httpRet);
             }
         }
-
     }
 }
