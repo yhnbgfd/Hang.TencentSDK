@@ -7,6 +7,10 @@
     <Authors>Hang</Authors>
     <Product>Hang.TencentSDK</Product>
     <PackageProjectUrl>https://github.com/yhnbgfd/Hang.TencentSDK</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/yhnbgfd/Hang.TencentSDK/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Copyright (c) 2018 HuangShuhang</Copyright>
+    <Description>Hang.TencentSDK</Description>
+    <PackageTags>Tencent</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
