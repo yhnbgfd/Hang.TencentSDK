@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Hang</Authors>
+    <Company>Hang</Company>
+    <Product>Hang.TencentSDK</Product>
+    <Version>0.1.0</Version>
+    <Description>Hang.TencentSDK</Description>
+    <Copyright>Copyright (c) 2018 HuangShuhang</Copyright>
+    <PackageLicenseUrl>https://github.com/yhnbgfd/Hang.TencentSDK/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/yhnbgfd/Hang.TencentSDK</PackageProjectUrl>
+    <PackageTags>Tencent,WeiXin</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

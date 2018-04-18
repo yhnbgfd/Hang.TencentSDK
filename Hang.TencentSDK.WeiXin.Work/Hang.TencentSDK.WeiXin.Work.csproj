@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Version>0.1.0</Version>
     <Authors>Hang</Authors>
     <Product>Hang.TencentSDK</Product>
@@ -10,7 +10,7 @@
     <PackageLicenseUrl>https://github.com/yhnbgfd/Hang.TencentSDK/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>Copyright (c) 2018 HuangShuhang</Copyright>
     <Description>Hang.TencentSDK</Description>
-    <PackageTags>Tencent</PackageTags>
+    <PackageTags>Tencent,WeiXin</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
